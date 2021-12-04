@@ -21,6 +21,8 @@ setup(
     install_requires=[
         "requests",
         "beautifulsoup4",
-        "rsa"
+        "rsa",
+        'selenium >= "4.0.0"',
+        "selenium-requests"
     ],
 )
